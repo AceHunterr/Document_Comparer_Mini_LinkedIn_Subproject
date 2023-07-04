@@ -1,0 +1,56 @@
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-11xl: 30px;
+  --font-size-8xl: 27px;
+  --font-size-41xl: 60px;
+  --font-size-16xl: 35px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+  --color-grey-primary: #dddddd;
+  --color-grey-secondary: #bfbfbf;
+  --color-grey-darker: #7e7e7e;
+
+  --color-secondary-black: #191919;
+  --color-secondary-black-darker: #121212;
+  --color-red: #e8505b;
+  --color-blue: #4e95fe;
+  --color-yellow: #ffd966;
+  --color-purple: #632f93;
+  --color-green: #00d085;
+
+  /* border radiuses */
+  --br-5xs: 8px;
+  --br-mini: 15px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif !important;
+}
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-white);
+}
+
+.job-detail-header-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  margin: auto;
+}
+
+.job-detail-heading {
+  font-size: 4rem;
+  font-weight: 400;
+  padding-bottom: 7%;
+  text-align: center;
+}
