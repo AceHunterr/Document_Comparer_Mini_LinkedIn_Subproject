@@ -4,12 +4,6 @@ import "react-datetime/css/react-datetime.css";
 
 import "./App.css";
 function App() {
-  // const [selectedDate, setSelectedDate] = useState(null);
-
-  // const handleDateChange = (date) => {
-  //   setSelectedDate(date);
-  // };
-
   const [startDate, setStartDate] = useState(null);
   const [endDate, setEndDate] = useState(null);
 
